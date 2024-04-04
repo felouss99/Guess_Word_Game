@@ -11,7 +11,7 @@ let numberOfHints = 2;
 let messageArea = document.querySelector('.message');
 //Maange Words
 let wordToGuess ="";
-const words=["Bochra","Felfou","Amiraa","Fatima"];
+const words=["Bochra","Felfou","Amiraa","Fatima","Meriem"];
 wordToGuess= words[Math.floor(Math.random()*words.length)].toLowerCase();
 
 //Manage Hints
